@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <!-- Put your site title here -->
+  <title>
+    Aigerim Zhusubalieva
+  </title>
+
+  <meta name="description" content="Add small description of yourslef.">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Put your name, skills and some coding keywords" />
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="foldingMenu.css" />
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Judson:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto:300,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+</head>
+
+<body class="bodyDarkMode">
+
+
+  <header class="header headerDarkMode" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Reflections</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+          <li class="nav__item">
+            <a onclick="lightMode();" class="nav__link" id="mode">Light Mode</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <span>Aigerim Zhusubalieva</span>
+        </h1>
+        <p>Computer Science student at NYU Abu Dhabi<br> Final Reflections from Human Development II, Fall 2022</p>
+        <a href="#contact" class="btn btn--pink" id="getInTouchBtn">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Reflections</h2>
+        <div class="work__boxes">
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Accessible Websites</h3>
+              <p>
+                Very limited templates that are accessible and free - they are usually custom made by professionals and get charged a lot, meaning that development of accessible websites is not a common practice. This website is accessible by letting the user customize:
+              </p>
+              <ul class="work__list">
+                <li>Light/Dark Mode</li>
+                <li>Highlight Color</li>
+                <li>Text Font</li>
+                <li>Text Size</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="" class="work__image" alt="Project 1" />
+              <!-- ACCESSIBILITY  -->
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Decision-making & Priority-setting Processes</h3>
+              <p>
+                Adolescents' priorities are much different than from adults with fully developed frontal cortex. Being physically developed increases pressure from the adults to "grow up" internally as well, but this is not something in control of adolescents. Adults who are aware of this can imporve the transition experience from child to adult for both the child and themselves. 
+              </p>
+
+            </div>
+            <div class="work__image-box">
+              <img src="./images/takeaway2.png" class="work__image" alt="Decisoin-making poster" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Stress Response</h3>
+              <p>
+                Adolescents' responses to the same stressor can vary depending on personal circumstances and lived experiences. Factors that impact tolerable or toxic stress response are:
+              </p>
+              <ul class="work__list">
+                <li>Attachment Styles with Caregivers</li>
+                <li>Socioeconomic Status</li>
+                <li>Race/Ethnicity</li>
+                <li>Microsystems</li>
+              </ul>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/takeaway3.png" class="work__image" alt="Project 1" />
+              <!-- STRESS RESPONSE DUALITY IMAGE -->
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About My Experience in Class</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <p>
+              I'm a third year Computer Science student majoring in Computer Science with minors in Applied Mathematics, Interactive Media, and Psychology. I took Human Development class as part of my semester abroad in NYC and just like my entire Psychology minor, I took this class to have a better understanding of myself and people around me. Throughout the semester and while making these final reflections I connected my lived experiences as a teenager and now late adolescent to the readings and lectures from the class.
+            </p>
+          </div>
+          <div class="about__photo-container">
+            <img class="about__photo" src="./images/me.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          If you have any questions or want to share your experience in the class feel free to reach out to my via email!
+        </p>
+        <a href="mailto:az2177@nyu.edu" class="btn" id="emailBtn">az2177@nyu.edu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Accessibility ***** -->
+  <div class="menu">
+    <div class="label"><img src="./images/accessibilityW.png" width="30px" id="accessible">
+    </div>
+    <div class="spacer"></div>
+    <div class="item itemDark" onclick="fontColor()"><span>Color</span></div>
+    <div class="item itemDark" onclick="fontSize()"><span>Font Size</span></div>
+    <div class="item itemDark" onclick="fontFamily()"><span>Font Family</span></div>
+  </div>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
